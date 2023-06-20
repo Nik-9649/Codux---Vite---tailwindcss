@@ -1,6 +1,7 @@
 <div align="center">  
-    <img height="50"src="./src/assets/codux.svg">  
-    <h1><img height="30" src="./src/assets/vite.svg"> Vite template for Codux</h1>
+<h1>
+    A Codux + Vite + Tailwindcss Template
+</h1>
 </div>
 
 ### A Visual IDE for React Projects
