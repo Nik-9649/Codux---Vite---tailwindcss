@@ -1,0 +1,31 @@
+{
+  "$schema": "https://wixplosives.github.io/codux-config-schema/codux.config.schema.json",
+  "boardGlobalSetup": "./src/board-global-setup.ts",
+  "scripts": {
+    "dev": {
+      "title": "Development",
+      "description": "Start the development server",
+      "command": "yarn dev"
+    },
+    "build": {
+      "title": "Build",
+      "description": "Build the project",
+      "command": "yarn build"
+    },
+    "serve": {
+      "title": "Serve",
+      "description": "Serve the built project",
+      "command": "yarn serve"
+    },
+    "lint": {
+      "title": "Lint",
+      "description": "Run ESLint",
+      "command": "yarn lint"
+    },
+    "test": {
+      "title": "Test",
+      "description": "Run tests",
+      "command": "yarn test"
+    }
+  }
+}
