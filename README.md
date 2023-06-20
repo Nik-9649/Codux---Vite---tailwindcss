@@ -1,105 +1,33 @@
-<p align='center'>
-  <img src='https://i.imgur.com/KVmyXyo.png' alt='Vital - Vite Starter Template' width='600'/>
-</p>
+<div align="center">  
+    <img height="50"src="./src/assets/codux.svg">  
+    <h1><img height="30" src="./src/assets/vite.svg"> Vite template for Codux</h1>
+</div>
 
-<p align='center'>
-Mocking up web app with <b>Vital</b><sup><em>(speed)</em></sup><br>
-</p>
+### A Visual IDE for React Projects
 
-<br>
+Codux is an all-in-one visual development environment. Whether you’re starting a new app, creating components, or editing an existing project, every visual change you make reflects instantly in the code and vice versa. To learn more about Codux, visit our website - [https://www.codux.com/](https://www.codux.com/)
 
-<p align='center'>
-<a href="https://vital.josepvidal.dev">Live Demo</a>
-</p>
+This project was bootstrapped with [`Vite`](https://vitejs.dev).
 
-<br>
+It includes a single React component to start your project with, a sample [`codux.config.json`](codux.config.json) with preconfigured keys, a `package.json` file to describe the project's packages and dependencies, and a folder and component structure to put everything neatly in its place.
 
-## Features
+- Edit, render and compose apps that make use of **`React`**-based components.
+- Create components with **`TypeScript`**, **`SCSS`** and **`CSS Modules`** support.
+- Visually edit in real-time and in an isolated environment.
 
-- ⚡️ [React 18](https://beta.reactjs.org/)
-- 🦾 TypeScript, of course
-- 🫀 [Jest](https://jestjs.io/) - unitary testing made easy
-- 🎨 [Tailwind with JIT](https://tailwindcss.com/) - next generation utility-first CSS
-- 🪢 [CSS Modules](https://github.com/css-modules/css-modules)
-- 👑 [Atomic Design organization](https://bradfrost.com/blog/post/atomic-web-design/)
-- 🗂 [Absolute imports](https://github.com/vitejs/vite/issues/88#issuecomment-762415200)
-- 😃 [Hero icons](https://heroicons.com/)
-- ☁️ Deploy on Netlify, zero-config
+### Available Scripts
 
-### Coding Style
+In the project directory, you can run:
 
-- [ESLint](https://eslint.org/) - configured for React/Hooks & TypeScript
-- [Prettier](https://prettier.io/)
+### `npm run build`
 
-### Dev tools
+Build the application in production mode into a folder named `dist`. This folder can be served using any HTTP server.
 
-- [TypeScript](https://www.typescriptlang.org/)
-- [Commit lint](https://github.com/conventional-changelog/commitlint) - helps your team adhering to a commit convention
-- [Netlify](https://www.netlify.com/) - zero-config deployment
+### `npm run dev`
 
-## Try it now!
+Start dev server, aliases: `vite dev`, `vite serve`.\
+Open [http://127.0.0.1:5173/](http://127.0.0.1:5173/) to view it in the browser.
 
-### GitHub Template
+### `npm run preview`
 
-[Create a repo from this template on GitHub](https://github.com/jvidalv/vital/generate).
-
-### Clone to local
-
-If you prefer to do it manually with the cleaner git history
-
-```bash
-npx degit jvidalv/vital my-vital-app
-cd my-vital-app
-yarn # If you don't have yarn installed, run: npm install -g yarn
-```
-
-## Checklist
-
-When you use this template, try follow the checklist to update your info properly
-
-- [ ] Rename `name` and `author` fields in `package.json`
-- [ ] Change the author name in `LICENSE`
-- [ ] Change the title in `index.html`
-- [ ] Change the favicon in `public`
-- [ ] Modify the manifest in `public`
-- [ ] Clean up the README's
-
-And, enjoy :)
-
-## Usage
-
-### Development
-
-Just run and visit http://localhost:3000
-
-```bash
-yarn start
-```
-
-### Build
-
-To build the App, run
-
-```bash
-yarn build
-```
-
-And you will see the generated file in `dist` that ready to be served.
-
-### Deploy on Netlify
-
-Go to [Netlify](https://app.netlify.com/start) and select your repository, `OK` along the way, and your App will be live in a minute.
-
-### Issues
-
-#### Husky
-
-If pre-commit hooks are not working be sure that you have installed husky: `husky install`.
-
-By default this command should be triggered after yarn/npm deps are installed.
-
-## Why
-
-I have created several React apps recently. Setting the configs up is kinda the bottleneck for me to make the ideas simply come true within a very short time.
-
-So I made this starter template for myself to create apps more easily, along with some good practices that I have learned from making those apps. Feel free to tweak it or even maintains your own forks.
+Boots up a local static web server that serves the files from dist at [`http://localhost:4173`](http://localhost:4173) . It's an easy way to check if the production build looks OK in your local environment.
